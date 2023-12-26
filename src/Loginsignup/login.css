@@ -1,0 +1,63 @@
+/* .divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+  height: 100%;
+  }
+} */
+/* .gradient-custom-2 { */
+  /* fallback for old browsers */
+  /* background: #fccb90; */
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593); */
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+} */
+
+/* @media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+  }
+}
+.logincontain{
+  height: 80vh;
+  background-color: green;
+} */
+/* body {
+  background-color: #9A616D;
+} */
+.card{
+  background-color: hsl(216, 14%, 93%);
+  background-image: radial-gradient(650px circle at 0% 0%,
+      hsl(220, 25%, 95%) 15%,
+      hsl(220, 33%, 96%) 35%,
+      hsl(214, 54%, 97%) 75%,
+      hsl(216, 10%, 90%) 80%,
+      transparent 100%),
+    radial-gradient(1250px circle at 100% 100%,
+      hsl(225, 10%, 92%) 15%,
+      hsl(217, 50%, 97%) 35%,
+      hsl(220, 25%, 95%) 75%,
+      hsl(225, 40%, 98%) 80%,
+      transparent 100%);
+      /* background: radial-gradient(#44006b, #ad1fff);
+      overflow: hidden; */
+}
+/*   */
+

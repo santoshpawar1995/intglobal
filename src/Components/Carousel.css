@@ -1,0 +1,10 @@
+.caro-img-cont{
+    height: 90vh;
+   width: 100%;
+    background-color: brown;
+}
+
+.caro-img-cont img{
+    height: 100%;
+    width: 100%;
+}

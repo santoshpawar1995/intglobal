@@ -1,0 +1,96 @@
+.navlinks {
+    background-color: #f3f3f3;
+}
+.navbar-overflow-width {
+    max-width: 992px;
+    overflow: hidden;
+    margin: 0 auto;
+    overflow-x: scroll;
+    /* -ms-overflow-style: none; */
+    /* scrollbar-width: none; */
+}
+.navbar-overflow-width::-webkit-scrollbar {
+    display: none;
+}
+.navbar-overflow-width table {
+    width: 100%;
+    min-width: 767px;
+    table-layout: fixed;
+}
+.navbar-overflow-width table .navbarlink td {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    min-height: 76px;
+    height: 100px;
+    /* -webkit-transition: background-color 0.2s linear;
+    -moz-transition: background-color 0.2s linear;
+    -o-transition: background-color 0.2s linear;
+    -ms-transition: background-color 0.2s linear; */
+    transition: background-color 0.2s linear;
+}
+.navbar-overflow-width table .navbarlink td.active {
+    border-bottom: 4px solid #f33;
+}
+.navbar-overflow-width table .navbarlink td.active a {
+    color: #f33;
+}
+.navbar-overflow-width table {
+    width: 100%;
+    min-width: 767px;
+    table-layout: fixed;
+}
+table {
+    border-collapse: collapse;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.navbar-overflow-width table .navbarlink td a {
+    font-weight: 600;
+    color: #2e2e2e;
+    text-decoration: none;
+    vertical-align: top;
+    width: inherit;
+    font-family: "OpenSans",sans-serif !important;
+    
+    /*padding: 20px 4px 14px;*/
+}
+.navbar-overflow-width table .navbarlink td a img{
+    max-width: 100%;
+    align-self: center;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.navbar-overflow-width table .navbarlink td a div {
+   padding:0px 4px;
+   
+   /* font-weight: 400;
+   font-size: 1rem; */
+   /* line-height: 1.5;
+    color: #212529; */
+}
+/*temporary hiding it as user does not want it. needs to be removed from structure.*/
+/* .navbar-overflow-width thead {
+   display:none;
+} */
+
+
+
+@media screen and (max-width: 768px) {
+ .fancy-container { display: none; }  
+ .navbar-overflow-width table thead tr th {display: none;}
+ .navbarlink td img{display:none;}
+ .navbarlink td br {display:none;}
+ .navbar-overflow-width table .navbarlink td {height:49px;}
+ .navbar-overflow-width table {table-layout:auto;}
+ }
+ 
+
+td:hover,tD:hover td {
+   background:#ececec; 
+}
