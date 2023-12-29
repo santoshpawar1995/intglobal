@@ -1,0 +1,79 @@
+.account_body{
+   
+    font-size: 1rem;
+    color: #390404;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 1rem;
+    font-family: "OpenSans",sans-serif !important;
+}
+.account_body p{
+    color: #555050; 
+    margin-bottom:5px;
+    font-size: 1rem;
+    font-family: "OpenSans",sans-serif !important;
+}
+@media (min-width: 768px){
+.col-md-12 {
+  max-width: 100%;
+}}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+}
+.product-list-layout-box{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 16px;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+@media (min-width: 768px){
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}}
+.loyout-container{
+    max-width: 100%;
+    overflow: hidden;
+}
+a {
+    color: #f33;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: transparent;
+}
+.loyout-img{
+    float: left;
+    width: 9rem;
+    height: 9rem;
+    padding: 0;
+    vertical-align: middle;
+    border-style: none;
+}
+.content{
+    width: 100%;
+    /* padding-left: 156px; */
+    /* margin-top: -7rem; */
+}
+.content  h3 a{
+    padding-top: 0;
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 20px;
+    color: #de0d0d;
+    /* margin-bottom: -4px; */
+   
+}
+.content p a{
+    line-height: normal;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+    color: #656565;
+    margin-bottom: 8px;
+}

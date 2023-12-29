@@ -36,6 +36,12 @@ import About from './Components/Nav-aboutPage/About';
 import Blog from './Components/nav-blogPage/Blog';
 import Contactus from './Components/Nav-ContactusPage/Contactus';
 import SmeBank from './Components/smeBankingPage/SmeBank';
+import Home from './Components/HomePage/Home';
+import SmeCouresel from './Components/smeBankingPage/SmeCouresel';
+import SmeHomePage from './Components/smeBankingPage/SmeHomePage/SmeHomePage';
+import SmeDaytoDay from './Components/smeBankingPage/Sme Day to Day/SmeDaytoDay';
+import SmeTrade from './Components/smeBankingPage/SmeTrade/SmeTrade';
+import SmeTreasury from './Components/smeBankingPage/SmeTreasury/SmeTreasury';
 
 
 function App() {
@@ -54,7 +60,14 @@ function App() {
 {/* <About/> */}
 {/* <Blog/> */}
 {/* <Contactus/> */}
-<SmeBank/>
+{/* <SmeBank/> */}
+{/* <SmeCouresel/> */}
+{/* <Home/> */}
+{/* <SmeHomePage/> */}
+{/* <SmeDaytoDay/> */}
+{/* <SmeTrade/> */}
+<SmeTreasury/>
+
     </>
 
 
