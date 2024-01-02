@@ -42,13 +42,14 @@ import SmeHomePage from './Components/smeBankingPage/SmeHomePage/SmeHomePage';
 import SmeDaytoDay from './Components/smeBankingPage/Sme Day to Day/SmeDaytoDay';
 import SmeTrade from './Components/smeBankingPage/SmeTrade/SmeTrade';
 import SmeTreasury from './Components/smeBankingPage/SmeTreasury/SmeTreasury';
+import Forgot_Passward from './Components/ForgotPassword/Forgot_Passward';
 
 
 function App() {
   return (
     <>
 
-      {/* <Header/>      */}
+      <Header/>     
       {/* <MiddlePage/> */}
       {/* <LoginPage/> */}
       {/* <SignupPage/> 
@@ -66,7 +67,8 @@ function App() {
 {/* <SmeHomePage/> */}
 {/* <SmeDaytoDay/> */}
 {/* <SmeTrade/> */}
-<SmeTreasury/>
+{/* <SmeTreasury/> */}
+{/* <Forgot_Passward/> */}
 
     </>
 
